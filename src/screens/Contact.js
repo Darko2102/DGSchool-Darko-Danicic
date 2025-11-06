@@ -1,11 +1,11 @@
 import React from 'react';
 import {View, StyleSheet, Text, Button} from 'react-native';
 
-const About = ({navigation}) => {
+const Contact = ({navigation}) => {
     return(
         <View style={StyleSheet.container}>
-            <Text>Welcome to home screen</Text>
-            <Button title="Go toHome screen" onPress={() => navigation.goBack()}/>
+            <Text>Contact Page</Text>
+            <Button title="Go to Home screen" onPress={() => navigation.goBack()}/>
         </View>
     )
 }
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
         justifyContent: "center",
     }
 })
-export default About;
+export default Contact;
