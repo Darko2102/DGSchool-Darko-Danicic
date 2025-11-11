@@ -3,6 +3,8 @@ import {createStackNavigator} from "@react-navigation/stack"
 import Home from '../screens/Home';
 import About from '../screens/About';
 import Contact from '../screens/Contact';
+import Profile from '../screens/Profile';
+
 
 const Stack = createStackNavigator();
 
@@ -23,4 +25,22 @@ const MainStackNavigator = ({navigation}) => {
     )
 }
 
-export default MainStackNavigator;
+const AboutStackNavigator = ({navigation}) => {
+    return(
+        <Stack.Navigator>
+            <Stack.Screen name="About" component={About}></Stack.Screen>
+            
+        </Stack.Navigator>
+    )
+}
+
+const ProfileStackNavigator = ({navigation}) => {
+    return(
+        <Stack.Navigator>
+            <Stack.Screen name="Profile" component={Profile}></Stack.Screen>
+            
+        </Stack.Navigator>
+    )
+}
+
+export {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator};
