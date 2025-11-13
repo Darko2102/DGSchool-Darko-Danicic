@@ -6,6 +6,8 @@ const Home = ({navigation}) => {
         <View style={StyleSheet.container}>
             <Text>Welcome to home screen</Text>
             <Button title="Go to About screen" onPress={() => navigation.navigate("About")}/>
+                <Text>Drawer navigation</Text>
+                <Button title="Open Drawer" onPress={() => navigation.openDrawer()}/>
         </View>
     )
 }
