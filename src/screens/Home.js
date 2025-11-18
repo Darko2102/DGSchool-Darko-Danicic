@@ -10,7 +10,8 @@ const Home = ({navigation}) => {
                     style={styles.item}
                     autoplay={true}
                     activeDotColor='#22D4FF'
-                    autoplayTimeout={5}
+                    autoplayTimeout={3}
+                    activeDot="#11101022"
                 >
                     <View>
                         {/* <Image style={styles.imgItem}  source={require('../../assets/OIP.jpg')} resizeMode="cover"/>
