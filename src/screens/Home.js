@@ -37,14 +37,14 @@ const Home = ({navigation}) => {
                 
            </View>
                 <View style={styles.iconsContainer}>
-                    <Icon name="cellphone" iconText="Iphone"></Icon>
-                    <Icon name="android" iconText="Samsung"></Icon>
-                    <Icon name="laptop" iconText="Laptop"></Icon>
+                    <Icon name="cellphone" iconText="Iphone" size={22} color={"#398858ff"}></Icon>
+                    <Icon name="android" iconText="Samsung" size={21} color={"#2b746aff"}></Icon>
+                    <Icon name="laptop" iconText="Laptop" size={23} color={"#504b92ff"}></Icon>
                 </View>
                 <View style={styles.iconsContainer}>
-                    <Icon name="tablet" iconText="Tablet"></Icon>
-                    <Icon name="mouse" iconText="Mouse"></Icon>
-                    <Icon name="keyboard-outline" iconText="Keyboard"></Icon>
+                    <Icon name="tablet" iconText="Tablet" size={25} color={"#b6ab47ff"}></Icon>
+                    <Icon name="mouse" iconText="Mouse" size={24} color={"#ad4545ff"}></Icon>
+                    <Icon name="keyboard-outline" iconText="Keyboard" size={23} color={"#ac3fb6ff"}></Icon>
                 </View>
         </View>
     )
