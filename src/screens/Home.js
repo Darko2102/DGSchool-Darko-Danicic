@@ -34,21 +34,41 @@ const Home = ({navigation}) => {
                         <Text style={styles.txtColor3}>3</Text>
                     </View>
                 </Swiper>
+                
            </View>
+                <View style={styles.iconsContainer}>
+                    <Icon name="cellphone" iconText="Iphone"></Icon>
+                    <Icon name="android" iconText="Samsung"></Icon>
+                    <Icon name="laptop" iconText="Laptop"></Icon>
+                </View>
+                <View style={styles.iconsContainer}>
+                    <Icon name="tablet" iconText="Tablet"></Icon>
+                    <Icon name="mouse" iconText="Mouse"></Icon>
+                    <Icon name="keyboard-outline" iconText="Keyboard"></Icon>
+                </View>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
+    iconsContainer:{
+        width: '90%',
+        alignSelf: "center",
+        marginTop:30,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+    
     container: {
         flex: 1,
         backgroundColor: "#fff",
         alignItems: "center",
         justifyContent: "center",
+        width: '100%',
     },
 
     sliderContainer:{
-        width: '90%',
+        
         height: 200,
         justifyContent: 'center',
         alignItems: 'center',
@@ -73,5 +93,6 @@ const styles = StyleSheet.create({
         txtColor3: {
             backgroundColor: '#25776cff'
         },
+        
 })
 export default Home;
