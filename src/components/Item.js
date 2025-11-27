@@ -11,6 +11,7 @@ const Item = ({item}) => (
             <Text style={styles.category}>{item.category}</Text>
             <Text style={styles.desc}>{item.description}</Text>
             <Text style={styles.price}>{item.price}</Text>
+            <Text style={styles.previousPrice}>{item.previousPrice}</Text>
         </View>
     </View>
 );
@@ -53,6 +54,15 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginTop: 5,
         backgroundColor: "#384053",
+        color: 'white',
+        borderRadius: 100,
+        paddingHorizontal: 5,
+        width: 45,
+    },
+    previousPrice:{
+        fontWeight: 'bold',
+        marginTop: 5,
+        color: "#384053",
         color: 'white',
         borderRadius: 100,
         paddingHorizontal: 5,
