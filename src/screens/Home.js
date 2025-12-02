@@ -67,16 +67,19 @@ class Home extends React.Component {
               </View>
             </Swiper>
           </View>
-          <View style={styles.iconsContainer}>
+        <View style={styles.iconsContainer}>
+          <TouchableOpacity onPress={() => this.props.navigation.navigate('ios')} />
             <Icon name="cellphone" iconText="Iphone"></Icon>
             <Icon name="android" iconText="Samsung"></Icon>
             <Icon name="laptop" iconText="Laptop"></Icon>
-          </View>
+        </View>
           <View style={styles.iconsContainer}>
             <Icon name="tablet" iconText="Tablet"></Icon>
             <Icon name="mouse" iconText="Mouse"></Icon>
             <Icon name="keyboard-outline" iconText="Keyboard"></Icon>
           </View>
+
+          <Button title="Sort" onPress={() => console.log("Sort")}></Button>
 
           <View style={styles.productsContainer}>
             <Text style={styles.title}>Most Popular Products</Text>
