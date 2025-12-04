@@ -4,7 +4,7 @@ import data from '../data/products.json'
 import { ScrollView } from 'react-native-gesture-handler';
 import Item from '../components/Item'
 
-class Ios extends Component {
+class Android extends Component {
     constructor(props){
         super();
         this.state = {
@@ -21,11 +21,11 @@ class Ios extends Component {
         return(
         <ScrollView>
             <View style={styles.container}>
-            <Text style={styles.desc}>IOS Products</Text>
-            <Button onPress={() => NavigationActivation.navigate("Favorites")}>
+            <Text style={styles.desc}>Android Products</Text>
+            
             <FlatList
               
-              data={this.state.products.ios}
+              data={this.state.products.android}
               renderItem={({ item }) => (
                 <View>
                   <Item item={item} />
@@ -35,8 +35,8 @@ class Ios extends Component {
             <TouchableOpacity style={styles.btn}>
               <Text style={styles.btnText}>View More</Text>
             </TouchableOpacity>
-            <Text style={styles.rating}>Rating {props.rating}</Text>
-            </Button>
+            
+           
           </View>
         </ScrollView>
         )
@@ -58,4 +58,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default Ios;
+export default Android;

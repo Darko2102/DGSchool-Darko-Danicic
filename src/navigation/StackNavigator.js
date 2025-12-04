@@ -51,4 +51,12 @@ const iosStackNavigator = () => {
     )
 }
 
-export {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator, iosStackNavigator};
+const androidStackNavigator = () => {
+    return(
+        <Stack.Navigator>
+            <Stack.Screen name='android' comonent={Android} />
+        </Stack.Navigator>
+    )
+}
+
+export {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator, iosStackNavigator, androidStackNavigator};

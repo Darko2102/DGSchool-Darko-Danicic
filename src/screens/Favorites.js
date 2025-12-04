@@ -1,23 +1,21 @@
-import React from 'react-native'
-import{StyleSheet, View, Text, FlatList, TouchableOpacity, Button} from 'react-native'
-import data from '../data/products.json'
-import { ScrollView } from 'react-native-gesture-handler';
-import Item from '../components/Item'
+import React from "react-native";
+import {Text, View, StyleSheet, FlatList} from 'react-native';
 
-class Ios extends Component {
-    constructor(props){
+class Favourites extends Component{
+    constructor(){
         super();
         this.state = {
-            products :[]
+            products: []
         }
     }
 
     componentDidMount(){
         this.setState({
-            products: data
+            products:data
         })
     }
-    render() {
+
+    render(){
         return(
         <ScrollView>
             <View style={styles.container}>
@@ -44,18 +42,7 @@ class Ios extends Component {
 }
 
 const styles = StyleSheet.create({
-    contsainer: {
-        backgroundColor: '#fff',
-        alignSelf: 'center',
-        padding: 20,
-    },
-    desc: {
-        marginBottom: 20,
-    },
-    rating: {
-        fontWeight: 'bold',
-        color: '#180d0dff'
-    }
+
 })
 
-export default Ios;
+export default Favorites;
