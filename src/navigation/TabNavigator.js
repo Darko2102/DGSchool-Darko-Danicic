@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator, iosStackNavigator, androidStackNavigator} from './StackNavigator'
+import {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator, iosStackNavigator, androidStackNavigator, BottomTabNavigator} from './StackNavigator'
 import {MaterialCommunityicons} from '@expo/vector-icons'
 
 

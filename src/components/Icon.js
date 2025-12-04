@@ -1,7 +1,8 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import { ImageBackground } from 'react-native/types_generated/index';
+import { ImageBackground } from 'react-native';
+
 
 const Icon  = (props) => (
     <View style={styles.iconContainer}>

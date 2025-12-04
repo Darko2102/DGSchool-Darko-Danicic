@@ -12,6 +12,7 @@ const Item = ({item}) => (
             <Text style={styles.desc}>{item.description}</Text>
             <Text style={styles.price}>{item.price}</Text>
             <Text style={styles.previousPrice}>{item.previousPrice}</Text>
+            <Text style={styles.stock}>{item.stock}</Text>
         </View>
     </View>
 );
@@ -67,6 +68,11 @@ const styles = StyleSheet.create({
         borderRadius: 100,
         paddingHorizontal: 5,
         width: 45,
+    }, 
+    stcok: {
+        fontWeight: 'bold',
+        marginTop: 12,
+        color: "#000000ff",
     }
 })
 

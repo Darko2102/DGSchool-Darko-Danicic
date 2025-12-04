@@ -40,28 +40,28 @@ class Home extends React.Component {
               <View style={styles.item}>
                 <Image
                   style={styles.imgItem}
-                  source={require("../../assets/banner_1.jpg")}
+                  source={require("../../assets/adaptive-icon.png")}
                   resizeMode="cover"
                 />
               </View>
               <View style={styles.item}>
                 <Image
                   style={styles.imgItem}
-                  source={require("../../assets/banner_2.png")}
+                  source={require("../../assets/Nikon-Z8-Official-Samples-00002.jpg")}
                   resizeMode="cover"
                 />
               </View>
               <View style={styles.item}>
                 <Image
                   style={styles.imgItem}
-                  source={require("../../assets/banner_3.jpeg")}
+                  source={require("../../assets/OIP.jpg")}
                   resizeMode="cover"
                 />
               </View>
               <View style={styles.item}>
                 <Image
                   style={styles.imgItem}
-                  source={require("../../assets/banner_5.jpg")}
+                  source={require("../../assets/pexels-agrosales-20804701.jpg")}
                   resizeMode="cover"
                 />
               </View>
