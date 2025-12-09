@@ -1,5 +1,8 @@
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import { AboutStackNavigator } from './StackNavigator';
+import { ContactStackNavigator } from './StackNavigator';
+import { AboutStackNavigator } from './StackNavigator';
+import { ProfileStackNavigator } from './StackNavigator';
 import BottomTabNavigator from "./TabNavigator"
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 

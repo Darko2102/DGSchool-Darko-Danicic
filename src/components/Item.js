@@ -1,8 +1,11 @@
 import React from "react";
-import {Text, View, StyleSheet, Image} from 'react-native'
+import {Text, View, StyleSheet, Image, TouchableOpacity} from 'react-native'
 
-const Item = ({item}) => (
-    <View style={styles.cardContainer}>
+const Item = ({item}) => {
+    const navigation = useNavigation()
+    return(
+    <TouchableOpacity onPress={() => navigation.navigate("Single", {item})}>
+        <View style={styles.cardContainer}>
         <View>
             <Image style={styles.img} source={{uri: `${item.image}`}} resizeMode='cover'/>
         </View>
@@ -15,7 +18,8 @@ const Item = ({item}) => (
             <Text style={styles.stock}>{item.stock}</Text>
         </View>
     </View>
-);
+    </TouchableOpacity>)
+};
 
 const styles = StyleSheet.create({
     cardContainer:{

@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator, iosStackNavigator, androidStackNavigator, BottomTabNavigator} from './StackNavigator'
+import {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator, iosStackNavigator, androidStackNavigator, ContactStackNavigator} from './StackNavigator'
 import {MaterialCommunityicons} from '@expo/vector-icons'
 
 
@@ -52,6 +52,20 @@ const BottomTabNavigator = () => {
                 />
 
                 <Tab.Screen 
+                    name="Contact"
+                    component={ContactStackNavigator}
+                    options={{
+                        tabBarLabel: 'Contact',
+                        tabBarIcon: ({color}) => (
+                            <MaterialCommunityicons 
+                                name='video-stabilization' size={26} color={color}
+                            />
+                            
+                        )
+                    }}
+                />
+
+                <Tab.Screen 
                     name="Profile"
                     component={ProfileStackNavigator}
                     options={{
@@ -66,7 +80,7 @@ const BottomTabNavigator = () => {
                 />
                 <Tab.Screen 
                     name="iOS"
-                    component={iosStackNavigator}
+                    component={Ios}
                     options={{
                         tabBarLabel: 'Ios',
                         tabBarIcon: ({color}) => (
@@ -79,7 +93,7 @@ const BottomTabNavigator = () => {
                 />
                 <Tab.Screen 
                     name="Android"
-                    component={androidStackNavigator}
+                    component={Android}
                     options={{
                         tabBarLabel: 'Android',
                         tabBarIcon: ({color}) => (

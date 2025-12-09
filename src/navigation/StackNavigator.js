@@ -21,7 +21,11 @@ const MainStackNavigator = ({navigation}) => {
             <Stack.Screen name="Home" component={Home}></Stack.Screen>
             <Stack.Screen name="About" component={About}></Stack.Screen>
             <Stack.Screen name="Contact" component={Contact}></Stack.Screen>
+            <Stack.Screen name='android' comonent={Android} />
+            <Stack.Screen name='Ios' comonent={Ios} />
+            <Stack.Screen name='Single' comonent={Single} />
         </Stack.Navigator>
+        
     )
 }
 
@@ -29,6 +33,15 @@ const AboutStackNavigator = ({navigation}) => {
     return(
         <Stack.Navigator>
             <Stack.Screen name="About" component={About}></Stack.Screen>
+            
+        </Stack.Navigator>
+    )
+}
+
+const ContactStackNavigator = ({navigation}) => {
+    return(
+        <Stack.Navigator>
+            <Stack.Screen name="Contact" component={Contact}></Stack.Screen>
             
         </Stack.Navigator>
     )
@@ -43,22 +56,8 @@ const ProfileStackNavigator = ({navigation}) => {
     )
 }
 
-const iosStackNavigator = () => {
-    return(
-        <Stack.Navigator>
-            <Stack.Screen name='IOS' comonent={Ios} />
-        </Stack.Navigator>
-    )
-}
-
-const androidStackNavigator = () => {
-    return(
-        <Stack.Navigator>
-            <Stack.Screen name='android' comonent={Android} />
-        </Stack.Navigator>
-    )
-}
 
 
 
-export {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator, iosStackNavigator, androidStackNavigator};
+
+export {MainStackNavigator, AboutStackNavigator, ProfileStackNavigator,  ContactStackNavigator};
