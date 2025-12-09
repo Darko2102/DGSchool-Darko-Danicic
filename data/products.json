@@ -6,7 +6,7 @@
       "category": "Tablet",
       "price": "$880",
       "image": "https://images.unsplash.com/photo-1525101238777-8878781fc06d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
-      "description": "Lorem Ipsum dolor sit amet, ut labore et dolore magna aliqua."
+      "description": "Apple iPad (8th generation) — A 10.2-inch iPad released in 2020, powered by the A12 Bionic chip (with Neural Engine), featuring a Retina display, Touch ID, 8 MP rear camera, and support for the original Apple Pencil — a well-rounded, affordable tablet for browsing, media, note-taking and everyday tasks."
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "category": "iOS",
       "price": "$750",
       "image": "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+      "description": "Apple iPhone X — a pioneering 2017 iPhone featuring a 5.8-inch Super Retina OLED edge-to-edge display, the A11 Bionic chip, dual 12 MP rear cameras, Face ID facial recognition (replacing the home button), and support for wireless charging."
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "category": "Android",
       "price": "$990",
       "image": "https://images.unsplash.com/photo-1610945264803-c22b62d2a7b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+      "description": "Samsung Galaxy S21 — a flagship-class Android smartphone from Samsung, with a 6.2″ Dynamic AMOLED 2X display (120 Hz, FHD+), 5G support, and a versatile triple-lens rear camera (12 MP wide + 12 MP ultra-wide + 64 MP telephoto)."
     }
   ],
   "ios": [
@@ -32,7 +32,7 @@
       "category": "iOS",
       "price": "$750",
       "image": "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation.",
+      "description": "Apple iPhone X — A game-changing 2017 iPhone: it introduced a 5.8-inch edge-to-edge Super Retina OLED display, ditched the home button in favor of gesture navigation, added secure Face ID facial recognition, dual 12 MP rear cameras, and wireless charging — all powered by the A11 Bionic chip.",
       "rating": "1 2 3 4 5"
     },
     {
@@ -41,7 +41,7 @@
       "category": "iOS",
       "price": "$999",
       "image": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation.",
+      "description": "Apple iPhone 12 — A 6.1-inch OLED-screen iPhone launched in 2020, powered by Apple’s A14 Bionic chip, with 5G support, dual 12 MP rear cameras, and a durable “Ceramic Shield” glass design that combines performance, modern display, and compact build for everyday use.",
       "rating": "1 2 3 4 5"
     },
     {
@@ -50,7 +50,7 @@
       "category": "iOS",
       "price": "$999",
       "image": "https://images.unsplash.com/photo-1570963904764-fff966562bbd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation.",
+      "description": "Apple iPhone 12 Pro — a premium smartphone from Apple’s iPhone 12 lineup, featuring a 6.1-inch Super Retina XDR OLED display, the powerful A14 Bionic chip, 5G support, and a triple-lens camera system (wide, ultra-wide and telephoto) with LiDAR and Dolby Vision HDR video for strong performance and excellent photo/video capabilities.",
       "rating": "1 2 3 4 5"
     }
   ],
@@ -62,7 +62,7 @@
       "category": "Android",
       "price": "$990",
       "image": "https://images.unsplash.com/photo-1575571536958-38aa1227786a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+      "description": "Xiaomi is a global technology company known for producing affordable, high-quality smartphones, smart devices, and consumer electronics."
     },
     {
       "id": 2,
@@ -70,7 +70,7 @@
       "category": "Android",
       "price": "$990",
       "image": "https://images.unsplash.com/photo-1610945264803-c22b62d2a7b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis nostrud exercitation."
+      "description": "Samsung Galaxy S21 is a flagship Android smartphone from Samsung’s Galaxy S-series, known for its sleek design, vibrant 6.2″ Dynamic AMOLED 2X display with 120 Hz refresh rate, 5G connectivity and a powerful triple-lens camera system — all wrapped in a compact form factor."
     }
   ]
 }
